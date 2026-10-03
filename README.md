@@ -17,7 +17,7 @@ print(df.tail(3))
 
 ## Why this exists
 
-[pytrends](https://github.com/GeneralMills/pytrends) is unofficial, currently looking for maintainers, and its own
+[pytrends](https://github.com/GeneralMills/pytrends) is unofficial and was archived (read-only) in April 2025; its last release, 4.9.2, is from April 2023. Its own
 README notes that Google rate-limits it ("60 seconds of sleep between requests ... once you reach the limit").
 From a laptop or a single server IP you quickly run into `TooManyRequestsError` / HTTP 429.
 
