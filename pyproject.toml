@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrends-next"
+version = "0.1.0"
+description = "Maintained drop-in replacement for pytrends (archived): Google Trends with the TrendReq API, standard library only, optional hosted fallback on HTTP 429."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Ctrio Lab", email = "myhouse9600@gmail.com" }]
+keywords = ["google trends", "pytrends", "trends", "seo", "keyword research", "429"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.3"]
+
+[project.urls]
+Homepage = "https://github.com/ctriolab/google-trends-python"
+Issues = "https://github.com/ctriolab/google-trends-python/issues"
+"Hosted fallback" = "https://apify.com/ctriolab/google-trends-scraper"
