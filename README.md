@@ -1,5 +1,11 @@
 # pytrends-next
 
+```bash
+pip install pytrends-next
+```
+
+[PyPI: pytrends-next](https://pypi.org/project/pytrends-next/) | Guides: [pytrends 429 error](https://ctriolab.com/trends/pytrends-429-error/), [Google Trends API in Python](https://ctriolab.com/trends/google-trends-api-python/)
+
 A maintained drop-in replacement for [pytrends](https://github.com/GeneralMills/pytrends), which was archived
 (read-only) in April 2025. Same `TrendReq` API, same DataFrames, talks to Google Trends directly.
 
